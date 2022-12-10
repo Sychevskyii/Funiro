@@ -3085,6 +3085,10 @@ body:not(.lg-from-hash) .lg-outer.lg-start-zoom .lg-item:not(.lg-zoomable).lg-co
     -ms-grid-column-span: 2;
     grid-column: span 2;
   }
+
+  .row-furniture__item img {
+    width: 15.625rem;
+  }
 }
 
 @media (max-width: 81.25em) and (max-width: 20em) {
@@ -4364,6 +4368,7 @@ body:not(.lg-from-hash) .lg-outer.lg-start-zoom .lg-item:not(.lg-zoomable).lg-co
   }
 
   .row-furniture__item img {
+    max-width: 21.875rem;
     -webkit-transition: all 0.3s ease 0s;
     -o-transition: all 0.3s ease 0s;
     transition: all 0.3s ease 0s;
